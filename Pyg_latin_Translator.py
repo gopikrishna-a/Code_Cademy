@@ -1,9 +1,13 @@
-word = raw_input("Enter any Word In English : ")
+pyg = 'ay'
 
-if word.isalpha():
-    temp = word[0]
-    word = word[1:] + temp + "ay."
-    print word
-    
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    print original
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    new_word = new_word[1:len(new_word)]
+    print new_word
 else:
-    print "Better Luck next time"
+    print 'empty'
