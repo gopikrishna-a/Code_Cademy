@@ -1,0 +1,63 @@
+Step:1
+======
+
+Installing Jekyll:
+==================
+To install jekyll run following command in command line
+Command:-   gem install jekyll
+
+Step:2
+======
+
+Creaing website directory:
+=========================
+
+Command:- jekyll new my-portfolio-site
+
+Step:3
+======
+
+Github Repo:
+============
+The name sould be in below format
+your-user-name.github.io
+
+
+step:4
+======
+>> Open command line and navigate to your wesite directory i.e my-portfolio-site
+
+>> Now in ur directory (my-portfolio-site) initilize a git repo by executin following command
+
+$ git init
+
+Step:5
+======
+Next add remote url
+$ git remote add origin https://github.com/your-user-name/your-user-name.github.io.git
+
+To verify that url is created run following command
+$ git remote -v
+
+if somthing is wrong remove the url by following command
+$ git remote rm origin
+
+Step:6
+======
+
+Add all of your site's contents using the following Git command:
+
+$ git add .
+
+Save your changes using Git's commit command and the following commit message
+
+$ git commit -m "Save my work"
+
+Step:7
+======
+
+$ git push origin master
+
+
+
+
