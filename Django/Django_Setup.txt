@@ -1,0 +1,30 @@
+Basic Seup on Linux:
+====================
+$ sudo python --version
+
+$ easy_install --version
+setuptools 3.3
+
+$ sudo easy_install django 
+
+
+
+
+
+Basic Seup on Windows:
+====================
+
+Open powershell as adminstrator
+$ python --version
+
+$ easy_install --version
+setuptools 3.3
+
+$ easy_install django 
+
+$ django-admin --version
+
+
+
+
+
