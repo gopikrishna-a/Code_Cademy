@@ -1,0 +1,42 @@
+
+
+$ django-admin startproject <project-name>
+By running above command it will create a project diredtory with basic files
+
+1. Never edit manage.py
+
+EXample:
+=======
+
+asm@asm-Vostro-260:~/Django$ django-admin startproject my_project
+asm@asm-Vostro-260:~/Django$ ls
+Diagnostic_Function_Call.sh  Django_Setup  Django_Setup~  my_project
+asm@asm-Vostro-260:~/Django$ cd my_project
+asm@asm-Vostro-260:~/Django/my_project$ ls
+manage.py  my_project
+asm@asm-Vostro-260:~/Django/my_project$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+June 14, 2017 - 09:29:08
+Django version 1.11.2, using settings 'my_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[14/Jun/2017 09:29:38] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[14/Jun/2017 09:29:38] "GET /favicon.ico HTTP/1.1" 404 1966
+Not Found: /favicon.ico
+[14/Jun/2017 09:29:38] "GET /favicon.ico HTTP/1.1" 404 1966
+
+
+
+
+
+
+
+
+
