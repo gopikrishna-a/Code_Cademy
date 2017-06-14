@@ -1,0 +1,22 @@
+
+Go to Project directory
+run following commnad
+
+$ python manage.py startapp <app Name>
+
+Example:
+========
+
+asm@asm-Vostro-260:~$ cd Django/my_project/
+
+asm@asm-Vostro-260:~/Django/my_project$ ls
+
+db.sqlite3  manage.py  my_project
+
+asm@asm-Vostro-260:~/Django/my_project$ python manage.py startapp my_app
+
+asm@asm-Vostro-260:~/Django/my_project$ ls
+
+db.sqlite3  manage.py  my_app  my_project
+
+
